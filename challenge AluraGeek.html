@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/Encabezado1.png" alt="AluraGeek Logo">
+        </div>
+    </header>
+    <main>
+        <section class="productos">
+            <h1>MIS PRODUCTOS:</h1>
+            <div id="no-productos">No se han agregado productos</div>
+            <div id="productos-grid" class="productos-grid"></div>
+        </section>
+        <section class="agregar-producto">
+            <h2>AGREGAR PRODUCTO:</h2>
+            <form id="form-producto">
+                <input type="text" placeholder="nombre..." required>
+                <input type="number" step="0.01" placeholder="precio..." required>
+                <input type="text" placeholder="imagen..." required>
+                <div class="form-buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="logo-footer">
+            <img src="imagenes/Encabezado1.png" alt="AluraGeek Logo">
+        </div>
+        <p>Desarrollado por Cristian Garcia</p>
+        <p>&copy; 2024 AluraGeek. Todos los derechos reservados.</p>
+    </footer>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

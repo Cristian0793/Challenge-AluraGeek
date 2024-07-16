@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Stormtrooper",
+      "precio": 60,
+      "imagen": "imagenes/vaso1.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Game Boy Classic",
+      "precio": 60,
+      "imagen": "imagenes/Game-Boy-FL.png"
+    },
+    {
+      "id": "aa74",
+      "nombre": "consola xbox one",
+      "precio": 1000,
+      "imagen": "https://m.media-amazon.com/images/I/612wQCy8x+L.jpg"
+    }
+  ]
+}
